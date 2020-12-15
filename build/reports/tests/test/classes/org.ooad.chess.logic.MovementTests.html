@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.ooad.chess.logic.MovementTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.ooad.chess.logic.MovementTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.ooad.chess.logic.html">org.ooad.chess.logic</a> &gt; MovementTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">20</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.428s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">95%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="testMoveProtectingPiece"></a>
+<h3 class="failures">testMoveProtectingPiece</h3>
+<span class="code">
+<pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertFalse(Assert.java:64)
+	at org.junit.Assert.assertFalse(Assert.java:74)
+	at org.ooad.chess.logic.MovementTests.testMoveProtectingPiece(MovementTests.java:279)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:119)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:182)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:164)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:414)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:48)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:56)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">exposeKingCheck</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">idk</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">kingAttackIntoCheck</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">kingMoveIntoCheck</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">pawnBackwardsCapture</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">reversePawnBlock</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCapture</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCheckCapture</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCheckMovements</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCollide</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveIntoCheck</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveKingIntoCheckmate</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">testMoveProtectingPiece</td>
+<td class="failures">0.022s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">testPawnCaptureFirstMove</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPawnFirstMoveBlock</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPawnMove_idk</td>
+<td class="success">0.147s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPawnMove_idk2</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPawnMovesinGeneral</td>
+<td class="success">0.024s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRookObstructed</td>
+<td class="success">0.050s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStartingPawnMoves</td>
+<td class="success">0.030s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>8|♜ ♞ ♝ -　♚ ♝ ♞ ♜ 
+7|-　♟ -　♟ ♟ ♟ ♟ ♟ 
+6|♙ -　-　-　-　-　-　-　
+5|-　-　♟ -　-　-　-　-　
+4|-　-　♙ -　-　-　-　-　
+3|♗ -　-　-　-　-　-　-　
+2|-　♟ -　♙ ♙ ♙ ♙ ♙ 
+1|♛ -　-　♕ ♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　♟ -　-　-　-　-　-　
+3|-　♕ -　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|-　-　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　♟ -　-　-　-　
+2|-　-　♙ -　-　-　-　-　
+1|-　-　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　♔ -　-　-　-　-　-　
+1|♔ ♖ ♛ -　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 
+7|♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|♙ ♙ -　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　-　♙ ♙ ♙ ♙ ♙ ♙ 
+1|♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　♔ -　-　-　-　-　
+3|♟ -　-　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|-　-　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|♟ -　-　-　-　-　-　-　
+1|♖ ♟ -　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|♟ -　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|♙ -　-　-　-　-　-　-　
+1|-　-　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　♜ -　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|♔ -　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|♜ ♞ ♝ -　-　-　-　-　
+7|♟ ♟ -　♟ -　-　-　♜ 
+6|-　♛ ♙ ♚ ♟ ♟ ♟ -　
+5|♙ -　-　♞ -　-　♝ -　
+4|-　-　♙ -　♗ ♗ -　-　
+3|-　-　-　♕ -　-　-　♟ 
+2|-　♙ ♔ ♖ ♙ ♙ -　♙ 
+1|-　-　-　-　-　-　♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|♖ -　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|-　-　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　♟ 
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|-　-　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|♜ ♞ ♝ ♖ ♚ -　♞ ♜ 
+7|♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟ 
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ 
+1|♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|♙ -　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|♖ -　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+Before FEN: rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR
+Make move: WHITE BoardMove{from=E2, to=E4}
+After FEN: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR
+Before FEN: rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1PPP/RNBQKBNR
+Make move: BLACK BoardMove{from=A7, to=A5}
+After FEN: rnbqkbnr/1ppppppp/8/p7/4P3/8/PPPP1PPP/RNBQKBNR
+8|♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 
+7|-　♟ ♟ ♟ ♟ ♟ ♟ ♟ 
+6|-　-　-　-　-　-　-　-　
+5|♟ -　-　-　-　-　-　-　
+4|-　-　-　-　♙ -　-　-　
+3|-　-　-　-　-　-　-　-　
+2|♙ ♙ ♙ ♙ -　♙ ♙ ♙ 
+1|♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 
+7|-　♟ ♟ ♟ ♟ ♟ ♟ ♟ 
+6|-　-　-　-　-　-　-　-　
+5|♟ -　-　-　-　-　-　-　
+4|-　-　-　-　♙ -　-　-　
+3|-　-　-　-　-　-　-　-　
+2|♙ ♙ ♙ ♙ -　♙ ♙ ♙ 
+1|♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜ 
+7|♟ ♟ ♟ ♟ ♕ ♟ ♟ ♟ 
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　♖ -　-　-　
+2|♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙ 
+1|♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|♜ -　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　-　-　-　-　
+4|-　-　-　-　-　-　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|♔ -　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|-　-　-　-　-　-　-　-　
+7|-　-　-　-　-　-　-　-　
+6|-　-　-　-　-　-　-　-　
+5|♙ -　-　♗ -　-　-　-　
+4|-　♝ -　-　♟ -　-　-　
+3|-　-　-　-　-　-　-　-　
+2|-　-　-　-　-　-　-　-　
+1|-　-　-　-　-　-　-　-　
+  A　B　C　D　E　F　G　H　
+8|♜ ♞ ♝ ♛ -　♝ ♞ ♜ 
+7|♟ ♟ ♟ ♟ ♟ -　♟ -　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　♕ ♟ -　♟ 
+4|♙ ♙ -　-　-　♙ -　-　
+3|-　-　♘ ♙ -　-　-　-　
+2|-　-　♚ -　♙ -　♙ ♙ 
+1|♖ -　♗ -　♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+8|♜ ♞ ♝ ♛ -　♝ ♞ ♜ 
+7|♟ ♟ ♟ ♟ ♟ -　♟ -　
+6|-　-　-　-　-　-　-　-　
+5|-　-　-　-　♕ ♟ -　♟ 
+4|♙ ♙ ♚ -　-　-　-　-　
+3|-　-　-　♙ -　-　-　-　
+2|-　-　-　-　♙ ♙ ♙ ♙ 
+1|♖ ♘ ♗ -　♔ ♗ ♘ ♖ 
+  A　B　C　D　E　F　G　H　
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 6.5</a> at Dec 4, 2020, 9:48:36 AM</p>
+</div>
+</div>
+</body>
+</html>
